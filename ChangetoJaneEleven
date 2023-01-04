@@ -1,0 +1,6 @@
+local args = {
+    [1] = game:GetService("ReplicatedStorage").SelectACharacter.Eleven,
+    [2] = game:GetService("Players").LocalPlayer.PlayerGui.Menu.Frame.Select.SelectScript
+}
+
+game:GetService("ReplicatedStorage").SelectACharacter.ChangeChar:FireServer(unpack(args))
